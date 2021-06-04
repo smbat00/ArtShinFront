@@ -23,6 +23,7 @@
     "react-slick": "^0.28.1",
     "react-text-transition": "^1.3.0",
     "reactstrap": "^8.9.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^4.4.1",
     "web-vitals": "^1.1.2"
   },
