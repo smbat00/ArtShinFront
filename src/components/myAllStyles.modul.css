@@ -1,0 +1,25 @@
+.nav-item > a {
+    text-decoration: none!important;
+}
+/*.menuItems:hover{*/
+
+/*}*/
+.myIconStyle  {
+    font-size: 15px!important;
+    text-align: center;
+    color: #308059;
+
+    padding-left: 20px;
+    /*margin-top: 40px;*/
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+.myIconStyle p{
+    padding: 0px;
+}
+.myIconStyle:hover{
+    transform: scale(1.3);
+    /*font-size: 30px!important;*/
+    color: #353334;
+
+}

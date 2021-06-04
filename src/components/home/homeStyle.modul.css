@@ -1,0 +1,80 @@
+.sec-title h2 {
+    color: #222;
+    font-size: 36px;
+    font-family: 'Bitter';
+    margin: 0;
+}
+.sec-title p{
+    font-size: 16px;
+    color: #848484;
+    margin: 0;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+}
+.single-service h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: all .4s ease;
+}
+.single-service .icon-box{
+    width: 80px;
+
+}
+.services-box:hover .inner-box{
+    background-color: #40aaf9;
+}
+.inner-box{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #40aaf9;
+    text-align: center;
+    font-size: 35px;
+    color: #40aaf9;
+    line-height: 78px;
+    transition: all .4s ease;
+}
+.cta-section .container {
+    position: relative;
+    padding: 80px 0;
+}
+.cta-section {
+    width: 100%;
+
+    background: #030d2a url(img/bg-1.jpg) right center no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.cta-section h2 {
+    color: #fff;
+    font-size: 38px;
+}
+.cta-section p {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.thm-btn {
+    border: none;
+    outline: none;
+    display: inline-block;
+    background: #40aaf9;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: bold !important;
+    padding: 12px 39px;
+    text-decoration: none !important;
+    transition: all .3s ease !important;
+}
+.cta-section img {
+    position: absolute;
+    bottom: 0;
+    right: 55px;
+}
+.cta-section > div{
+    padding: 75px 0px 62px 40px;}
