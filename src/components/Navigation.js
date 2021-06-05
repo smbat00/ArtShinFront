@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from './home/logo.png';
-
+import { NavLink } from 'react-router-dom';
 import {
     Collapse,
     Navbar,
@@ -8,7 +8,6 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -22,26 +21,30 @@ const Navigation = (props) => {
         width :'200px',
 
     }
+    const navItemsStyle = {
+        padding: '10px',
+        textDecoration: 'none',
+    }
     const toggle = () => setIsOpen(!isOpen);
 
     return (
         <div>
             <Navbar color="light" light expand="md">
-                <NavbarBrand href="/">
+                <NavLink href="/" to="/">
                     <img src={logo} style={logo_styles} alt=""/>
-                </NavbarBrand>
+                </NavLink>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
 
                         <NavItem>
-                            <NavLink href="contact" to="/Contact">Contact</NavLink>
+                            <NavLink style={navItemsStyle} href="contact" to="/Contact">Contact</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="about" to="/about">About</NavLink>
+                            <NavLink style={navItemsStyle} href="about" to="/about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="service" to="/dervice">Service</NavLink>
+                            <NavLink style={navItemsStyle} href="service" to="/dervice">Service</NavLink>
                         </NavItem>
                     </Nav>
                     {/*<NavbarText>Simple Text</NavbarText>*/}

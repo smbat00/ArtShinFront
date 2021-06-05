@@ -1,153 +1,146 @@
 import React, {useState} from 'react';
-import serviceimg from './img/service-1.jpg'
-import {Container, Row, Col, NavbarBrand} from 'reactstrap';
+// import { FaBeer } from 'react-icons/fa';
+import {FaEdit, FaTools, FaToolbox} from "react-icons/fa"
 
-import Circle from './Circle';
-import logo from "./logo.png";
+import {Container, Row, Col, NavbarBrand} from 'reactstrap';
 import  './homeStyle.modul.css'
 const Section1 = () => {
-    const [value, setValue] = useState('');
-    const [arr, setArr] = useState([]);
-    const section1_title = {
-        color:'#00653b',
-    }
-    const mycstyle = {
-        textAlign: 'center',
-    }
 
-    // const handleAddPlayer = () => {
-    //     console.log('click')
-    // };
-    //
-
-    const shoot = () => {
-        setArr(arr.concat(value));
-    }
 
     return (
         <Container>
-                <div className="sec-title text-center">
-                    <h2>Service That We Offers</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor </p>
+            <section className="kc-elm kc-css-621456 kc_row">
+                <div className="kc-row-container  kc-container">
+                    <Row className="kc-wrap-columns">
+                        <Col md='4' className="kc-elm kc-css-875364 kc_col-sm-4 kc_column kc_col-sm-4">
+                            <div className="kc-col-container">
+                                <div id=" " className="kc-elm kc-css-577646 kc_row kc_row_inner">
+                                    <div
+                                        className="kc-elm kc-css-551889 kc_col-sm-12 kc_column_inner kc_col-sm-12 kc-pc-loaded">
+                                        <div className="kc_wrapper kc-col-inner-container">
+                                            <div className="kc-elm kc-css-280059 kc-feature-boxes kc-fb-layout-3">
+
+
+                                                <Row>
+                                                    <Col md='4'>
+                                                        <div className="content-icon">
+                                                            <FaToolbox />
+
+                                                        </div>
+                                                    </Col>
+                                                    <Col md='8'>
+                                                        <div className="box-right">
+                                                            <div className="content-title">Նախագծում</div>
+                                                            <div className="content-desc">Գրագետ</div>
+                                                        </div>
+                                                    </Col >
+                                                </Row>
+                                            </div>
+                                            <div className="kc-elm kc-css-72980 kc_text_block kc_text_block_b_1">
+                                                <ul className="list-unstyled lists space-30">
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Չափագրում
+                                                    </li>
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Վերլուծություն</li>
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Ռիսկերի կանխատեսում</li>
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Թվերի տրամադրում
+                                                    </li>
+                                                </ul>
+                                                {/*<p><a className="text-primary" href="#">View more&nbsp;&nbsp;<i*/}
+                                                {/*    className="fa fa-long-arrow-right"></i></a></p>*/}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md='4' className="kc-elm kc-css-19393 kc_col-sm-4 kc_column kc_col-sm-4">
+                            <div className="kc-col-container">
+                                <div className="kc-elm kc-css-841137 kc_row kc_row_inner">
+                                    <div
+                                        className="kc-elm kc-css-563395 kc_col-sm-12 kc_column_inner kc_col-sm-12 kc-pc-loaded">
+                                        <div className="kc_wrapper kc-col-inner-container">
+                                            <div className="kc-elm kc-css-710024 kc-feature-boxes kc-fb-layout-2">
+
+                                                <Row>
+                                                    <Col md='4'>
+                                                        <div className="content-icon">
+                                                            <FaTools />
+
+                                                        </div>
+                                                    </Col>
+                                                    <Col md='8'>
+                                                        <div className="box-right">
+                                                            <div className="content-title">Աշխատանք</div>
+                                                            <div className="content-desc">Որակյալ</div>
+                                                        </div>
+                                                    </Col >
+                                                </Row>
+                                            </div>
+                                            <div className="kc-elm kc-css-233285 kc_text_block kc_text_block_b_2">
+                                                <ul className="list-unstyled lists space-30">
+                                                    <li><i
+                                                        className="fa fa-check-circle text-primary"></i>Տեղադրում
+                                                    </li>
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Հեռացում
+
+                                                    </li>
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Մաքրում</li>
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Վերջնական տեսք</li>
+                                                </ul>
+                                                {/*<p><a className="text-primary" href="#">View more&nbsp;&nbsp;<i*/}
+                                                {/*    className="fa fa-long-arrow-right"></i></a></p>*/}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md='4' className="kc-elm kc-css-46166 kc_col-sm-4 kc_column kc_col-sm-4">
+                            <div className="kc-col-container">
+                                <div className="kc-elm kc-css-405696 kc_row kc_row_inner">
+                                    <div
+                                        className="kc-elm kc-css-228233 kc_col-sm-12 kc_column_inner kc_col-sm-12 kc-pc-loaded">
+                                        <div className="kc_wrapper kc-col-inner-container">
+                                            <div className="kc-elm kc-css-269527 kc-feature-boxes kc-fb-layout-1">
+
+                                                <Row>
+                                                    <Col md='4'>
+                                                        <div className="content-icon">
+                                                            <FaEdit />
+
+                                                        </div>
+                                                    </Col>
+                                                    <Col md='8'>
+                                                        <div className="box-right">
+                                                            <div className="content-title">Արդյունք</div>
+                                                            <div className="content-desc">Մանրամասն</div>
+                                                        </div>
+                                                    </Col >
+                                                </Row>
+                                            </div>
+                                            <div className="kc-elm kc-css-316401 kc_text_block kc_text_block_b_3">
+                                                <ul className="list-unstyled lists space-30">
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Աշխատանքի բնութագիր
+                                                    </li>
+                                                    <li><i
+                                                        className="fa fa-check-circle text-primary"></i>Խնդիրների լուծումներ
+                                                    </li>
+                                                    <li><i
+                                                        className="fa fa-check-circle text-primary"></i>Ազդեցությունների չեզոքացում
+                                                    </li>
+                                                    <li><i className="fa fa-check-circle text-primary"></i>Այլ աշխատանքներ</li>
+                                                </ul>
+                                                {/*<p><a className="text-primary" href="#">View more&nbsp;&nbsp;<i*/}
+                                                {/*    className="fa fa-long-arrow-right"></i></a></p>*/}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
-            <Row>
-                <Col md='4'>
-                        <div className="single-service left-col">
-                            <Row className="services-box">
-
-                            <Col md='9'>
-                                <div className="text-box">
-                                    <h3>Water Leaks</h3>
-                                    <p>Lorem ipsum dolor sit amet constur adip elit sed do eiusmtempor incid dolore
-                                        magna</p>
-                                </div>
-                            </Col>
-                            <Col md='3'>
-                                <div className="icon-box">
-                                    <div className="inner-box">
-
-                                        <i className="avicon-pipes"></i>
-                                    </div>
-                                </div>
-                            </Col>
-                            </Row>
-                            <Row className="services-box">
-
-                                <Col md='9'>
-                                    <div className="text-box">
-                                        <h3>Water Leaks</h3>
-                                        <p>Lorem ipsum dolor sit amet constur adip elit sed do eiusmtempor incid dolore
-                                            magna</p>
-                                    </div>
-                                </Col>
-                                <Col md='3'>
-                                    <div className="icon-box">
-                                        <div className="inner-box">
-                                            <i className="avicon-pipes"></i>
-                                        </div>
-                                    </div>
-                                </Col>
-                            </Row>
-                            <Row className="services-box">
-
-                                <Col md='9'>
-                                    <div className="text-box">
-                                        <h3>Water Leaks</h3>
-                                        <p>Lorem ipsum dolor sit amet constur adip elit sed do eiusmtempor incid dolore
-                                            magna</p>
-                                    </div>
-                                </Col>
-                                <Col md='3'>
-                                    <div className="icon-box">
-                                        <div className="inner-box">
-                                            <i className="avicon-pipes"></i>
-                                        </div>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Col>
-                <Col md='4'>
-                        {/*<img src="img/service-1.jpg" alt="Awesome Image">*/}
-                        <img src={serviceimg}  alt=""/>
-
-                    </Col>
-                <Col md='4'>
-                    <div className="single-service right-col">
-                        <Row className="services-box">
-                            <Col md='3'>
-                                <div className="icon-box">
-                                    <div className="inner-box">
-                                        <i className="avicon-pipes"></i>
-                                    </div>
-                                </div>
-                            </Col>
-
-                            <Col md='9'>
-                                <div className="text-box">
-                                    <h3>Water Leaks</h3>
-                                    <p>Lorem ipsum dolor sit amet constur adip elit sed do eiusmtempor incid dolore
-                                        magna</p>
-                                </div>
-                            </Col>
-                        </Row>
-                        <Row className="services-box">
-                            <Col md='3'>
-                                <div className="icon-box">
-                                    <div className="inner-box">
-                                        <i className="avicon-pipes"></i>
-                                    </div>
-                                </div>
-                            </Col>
-
-                            <Col md='9'>
-                                <div className="text-box">
-                                    <h3>Water Leaks</h3>
-                                    <p>Lorem ipsum dolor sit amet constur adip elit sed do eiusmtempor incid dolore
-                                        magna</p>
-                                </div>
-                            </Col>
-                        </Row>
-                        <Row className="services-box">
-                            <Col md='3'>
-                                <div className="icon-box">
-                                    <div className="inner-box">
-                                        <i className="avicon-pipes"></i>
-                                    </div>
-                                </div>
-                            </Col>
-
-                            <Col md='9'>
-                                <div className="text-box">
-                                    <h3>Water Leaks</h3>
-                                    <p>Lorem ipsum dolor sit amet constur adip elit sed do eiusmtempor incid dolore
-                                        magna</p>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
-                    </Col>
-                </Row>
+            </section>
         </Container>
     );
 }

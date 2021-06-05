@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutContact from "./ContactAbout";
+import MyMap from "./Mymap";
 // import ContactImg from "./img/bgi.jpg";
 const Contact = () => {
     const contactUsStyles = {
@@ -14,6 +15,7 @@ const Contact = () => {
         <div style={contactUsStyles}>
             {/*<h1>Contact us</h1>*/}
             {/*<p>About US page body content</p>*/}
+            <MyMap/>
             <AboutContact/>
         </div>
     );

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from "reactstrap";
-import Circle from "../home/Circle";
 import ContactForm from "./ContactForm";
 // import Mymap from "./Mymap";
 const AboutContact = () => {

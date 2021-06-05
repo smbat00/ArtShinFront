@@ -22,6 +22,7 @@
 }
 .services-box:hover .inner-box{
     background-color: #40aaf9;
+    color: #fff;
 }
 .inner-box{
     width: 80px;
@@ -78,3 +79,71 @@
 }
 .cta-section > div{
     padding: 75px 0px 62px 40px;}
+
+/*****section1*/
+
+.kc-css-621456 {
+    margin-top: -84px;
+}
+.kc-css-system .kc-css-280059 {
+    background: #fbfbfb;
+    border-top: 10px solid #46c7ad;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 40px 5px 40px;
+}
+.content-icon  {
+    color: #47c9af;
+    font-size: 50px;
+}
+.content-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: none;
+    margin-bottom: 0px;
+}
+.content-desc {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: none;
+}
+.kc_text_block {
+    padding: 100px 40px 40px 40px;
+}
+.kc_text_block_b_1 {
+    background: #ffffff url(http://demo1.wpopal.com/etro/wp-content/uploads/2016/08/bg-06.png) right bottom/auto no-repeat scroll;
+
+}
+.kc_text_block_b_2 {
+    background: #ffffff url(http://demo1.wpopal.com/etro/wp-content/uploads/2016/08/bg-07.png) right bottom/auto no-repeat scroll;
+}
+.kc_text_block_b_3 {
+    background: #ffffff url(http://demo1.wpopal.com/etro/wp-content/uploads/2016/08/bg-08.png) right bottom/auto no-repeat scroll;
+}
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+.text-primary {
+    color: #47c9af;
+}
+.kc-fb-layout-3{
+    background: #fbfbfb;
+    border-top: 10px solid #46c7ad;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 40px 5px 40px;
+}
+.kc-fb-layout-2{
+    background: #fbfbfb;
+    border-top: 10px solid #0070b8;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 40px 5px 40px;
+}
+.kc-fb-layout-1{
+    background: #fbfbfb;
+    border-top: 10px solid #fcd52a;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 40px 5px 40px;
+}
